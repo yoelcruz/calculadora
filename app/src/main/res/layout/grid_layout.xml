@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="8">
+
+    <EditText
+        android:id="@+id/caja"
+        android:layout_width="351dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="left"
+        android:ems="16"
+        android:inputType="none|number"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonDividir"
+        android:backgroundTint="@android:color/darker_gray"
+        android:onClick="buttonDividir"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/buttonMultiplicar"
+        android:backgroundTint="@android:color/darker_gray"
+        android:onClick="buttonMultiplicar"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/buttonClean"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="buttonClear"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="buttonBorrarUltimo"
+        android:text="DEL" />
+
+    <Button
+        android:id="@+id/button7"
+        android:onClick="button7"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/button8"
+        android:onClick="button8"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/button9"
+        android:onClick="button9"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/buttonRestar"
+        android:backgroundTint="@android:color/darker_gray"
+        android:onClick="buttonRestar"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="button4"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/button5"
+        android:onClick="button5"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/button6"
+        android:onClick="button6"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/buttonSumar"
+        android:layout_height="94dp"
+        android:layout_rowSpan="2"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="@android:color/darker_gray"
+        android:onClick="buttonSumar"
+        android:text="+"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:onClick="button1"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="button2"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="button3"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/button0"
+        android:onClick="button0"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/buttonPunto"
+        android:onClick="buttonPunto"
+        android:text="," />
+
+    <Button
+        android:id="@+id/buttonParentesis"
+        android:text="()" />
+
+    <Button
+        android:id="@+id/buttonIgual"
+        android:layout_height="94dp"
+        android:layout_rowSpan="2"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="buttonIgual"
+        android:text="="
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonSeno"
+        android:backgroundTint="@android:color/darker_gray"
+        android:onClick="buttonSeno"
+        android:text="SIN" />
+
+    <Button
+        android:id="@+id/buttonCoseno"
+        android:backgroundTint="@android:color/darker_gray"
+        android:onClick="buttonCoseno"
+        android:text="COS" />
+
+    <Button
+        android:id="@+id/buttonTangente"
+        android:backgroundTint="@android:color/darker_gray"
+        android:onClick="buttonTangente"
+        android:text="TAN" />
+
+
+</GridLayout>
